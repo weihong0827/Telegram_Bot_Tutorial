@@ -8,7 +8,7 @@ Telegram is a free and open source, cross-platform, cloud-based instant messagin
 
 Hello and welcome to the telegram bot workshop notes! Don't be intimidated by the length of the notes, we'll go through every part step-by-step with a lot of the codes provided to you! 
 
-Before the workshop on 14 Jan, we require you to have these installed on your computer: 
+Before the workshop on 21 Jan, we require you to have these installed on your computer: 
 
 - [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
