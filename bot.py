@@ -11,8 +11,8 @@ def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
     return LOCATIONINFO
 
-start_handler = CommandHandler('start', start)
-dispatcher.add_handler(start_handler)
+# start_handler = CommandHandler('start', start)
+# dispatcher.add_handler(start_handler)
 
 
 # def echo(update, context):
@@ -101,5 +101,6 @@ conv_handler = ConversationHandler(
         },
     fallbacks=[MessageHandler(Filters.regex('^Done$'), done)]
 )
+dispatcher.add_handler(conv_handler)
 updater.start_polling()
 updater.idle()
